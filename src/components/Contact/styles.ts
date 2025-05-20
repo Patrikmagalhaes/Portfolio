@@ -48,7 +48,7 @@ export const ContactContent = styled.div`
 
 export const FormContent = styled.form`
   text-align: center;
-  display: flex;
+  display: none;
   gap: 2px;
   flex-direction: column;
 

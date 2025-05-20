@@ -20,13 +20,12 @@ export default function About() {
         <title>About | Evander Inácio </title>
         <meta
           name="description"
-          content="Meu nome é Evander Inácio, sou um desenvolvedor front-end React
-          do Brasil."
+          content="Meu nome é Patrik Magalhães, sou um desenvolvedor front-end React"
         />
         <meta property="og:title" content="About | Evander Inácio" />
         <meta
           property="og:description"
-          content="Meu nome é Evander Inácio, sou um desenvolvedor front-end React do Brasil."
+          content="Meu nome é Patrik Magalhães, sou um desenvolvedor front-end React"
         />
       </Head>
 
@@ -47,47 +46,37 @@ export default function About() {
             <S.AboutImage>
               <img
                 className="AboutImg"
-                src="/Evander.webp"
-                alt="Imagem de perfil Evander"
+                src="/patrik.jpeg"
+                alt="Imagem de perfil patrik"
               />
 
               <div className="links">
                 <ul>
-                  <Link href={'https://github.com/EvanderInacio'}>
+                  <Link href={'https://github.com/patrikmagalhaes'}>
                     <a target="_blank" aria-label="Link para o Github">
-                      <AiFillGithub size={25} /> @EvanderInacio
+                      <AiFillGithub size={25} /> @patrikmagalhaes
                     </a>
                   </Link>
-                  <Link href={'https://www.linkedin.com/in/evander-inacio/'}>
+                  <Link href={'https://www.linkedin.com/in/patrikmagalhaes'}>
                     <a target="_blank" aria-label="Link para o Linkedin">
-                      <BsLinkedin size={25} /> @evander-inacio
+                      <BsLinkedin size={25} />  @patrikmagalhaes
                     </a>
                   </Link>
                   <Link
-                    href={'https://api.whatsapp.com/send?phone=5511995085916'}
+                    href={'https://api.whatsapp.com/send?phone=5569999523234'}
                   >
                     <a target="_blank" aria-label="Link para o WhatsApp">
-                      <RiWhatsappFill size={25} /> +55 (11) 99508-5916
+                      <RiWhatsappFill size={25} /> +55 69 99952-3234
                     </a>
                   </Link>
-                  <Link
-                    href={'https://www.discordapp.com/users/evander_inacio'}
-                  >
-                    <a
-                      className="dc"
-                      target="_blank"
-                      aria-label="Link para o Discord"
-                    >
-                      <FaDiscord size={25} /> @evander_inacio
-                    </a>
-                  </Link>
-                  <Link href={'mailto:evander.20116@gmail.com'}>
+
+                  <Link href={'mailto:patrikmagalhaes@icloud.com'}>
                     <a
                       className="email"
                       target="_blank"
                       aria-label="Link para o email"
                     >
-                      <GrMail size={25} /> @evander.20116@gmail.com
+                      <GrMail size={25} /> patrikmagalhaes@icloud.com
                     </a>
                   </Link>
                 </ul>
@@ -107,51 +96,17 @@ export default function About() {
             </S.AboutImage>
             <S.AboutDescription>
               <p>
-                Meu nome é Evander Inácio, sou um desenvolvedor front-end React
-                do Brasil, apaixonado por projetar e codificar. Minha
-                especialidade é a criação de interfaces e funcionalidades para
-                aplicativos da web usando React.js e Next.js.
+                Minha jornada começou cedo: aos 16 anos, iniciei no mercado de trabalho com atendimento ao cliente — uma experiência que moldou minha forma de me comunicar e entender pessoas. Sou de Rondônia e, em 2022, me mudei para São José, SC, em busca de novas oportunidades e crescimento profissional.
+
+              </p>
+
+              <p>
+                Trabalhei no McDonalds, onde aprendi na prática sobre agilidade, pressão e trabalho em equipe. Depois, passei por empresas como a Komeco e a Sterilab, onde atuei com controle de qualidade, processos administrativos e organização de dados. Cada etapa me ensinou algo novo e me preparou para o que viria a seguir.
               </p>
               <p>
-                Iniciei minha jornada na universidade com o objetivo inicial de
-                cursar Análise e Desenvolvimento de Sistemas. Sempre tive
-                interesse por computadores e uma curiosidade em relação à
-                criação de páginas web. Então, decidi unir essas duas paixões e
-                ingressei na faculdade para explorar as possibilidades da área
-                de TI.
+                Hoje, com 23 anos(2025) e cursando Ciência da Computação, atuo como Desenvolvedor Front-end freelancer. Minha transição para a tecnologia se concretizou no estágio na Avanti, onde desenvolvi e mantive e-commerces usando React, JavaScript e TypeScript.
               </p>
-              <p>
-                Foi somente em 2021, no penúltimo semestre da faculdade, que
-                comecei a levar a programação mais a sério. Iniciei minha
-                primeira tentativa de aprender HTML e CSS, porém acabei dando
-                uma pausa após alguns meses devido à falta de tempo livre.
-              </p>
-              <p>
-                No ano seguinte, em 2022, percebi que precisava definir um
-                objetivo claro. Foi então que direcionei meus esforços para
-                aprimorar minhas habilidades em HTML, CSS e JavaScript, com o
-                objetivo de construir aplicações web e aprofundar meu
-                aprendizado. Esse foi o ponto de partida para me tornar um
-                desenvolvedor web.
-              </p>
-              <p>
-                Em termos de minha experiência até o momento, tenho uma base
-                sólida em desenvolvimento front-end. Gosto de trabalhar com
-                React e NextJS para criar interfaces de usuário dinâmicas.
-                Trabalhei como desenvolvedor front-end freelancer,
-                utilizando ReactJS e Material UI, além de colaborar com a equipe de desenvolvimento Back-end para integrar componentes Front-end e Back-end de nossas aplicações.
-              </p>
-              <p>
-                Continuo estudando e desenvolvendo projetos
-                pessoais para expandir meus conhecimentos, focado no ecossistema
-                Javascript para desenvolvimento Front-end utilizando ReactJS,
-                Typescript, Next.js, entre outros.
-              </p>
-              <p>
-                Estou sempre em busca de desafios e oportunidades para crescer
-                profissionalmente, e estou animado para contribuir com projetos
-                interessantes e inovadores no campo do desenvolvimento web.
-              </p>
+              <p>Desde então, venho criando sites completos — do layout no Figma à entrega final — sempre focado em responsividade, performance e uma boa experiência do usuário. Construo soluções digitais com olhar técnico e sensibilidade para o que o cliente realmente precisa.</p>
             </S.AboutDescription>
           </S.AboutContent>
         </S.AboutContainer>

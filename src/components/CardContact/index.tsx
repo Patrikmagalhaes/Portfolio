@@ -35,7 +35,7 @@ export function CardContact() {
           </div>
         </CardContactContent>
 
-        <Link href={'/contact'}>
+        <Link href={'https://api.whatsapp.com/send?phone=5569999523234'}>
           <ButtonAlt>
             Entre em contato{' '}
             <TelegramLogo

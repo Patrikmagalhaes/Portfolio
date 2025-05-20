@@ -16,7 +16,7 @@ export function HomeHero() {
             <span>👋🏻</span> Olá, o meu nome é
           </p>
           <h1>
-            Evander Inácio
+            Patrik Magalhães
             <span className="animation">
               <Image
                 width={200}

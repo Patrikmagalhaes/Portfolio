@@ -26,7 +26,7 @@ export default function Projeto({ project }: ProjectProps) {
   return (
     <>
       <Head>
-        <title>{project.title} | Evander Inácio </title>
+        <title>{project.title} | EPatrik Magalhães </title>
         <meta name="description" content={project.description} />
         <meta property="og:title" content={project.title} />
         <meta property="og:description" content={project.description} />
@@ -167,27 +167,7 @@ export default function Projeto({ project }: ProjectProps) {
           <div className="imageVideo">
             <img src={project.backgroundImage} alt={project.title} />
           </div>
-          <Title className="title-video">
-            Video
-            <span>
-              <YoutubeLogo /> Video
-            </span>
-            <img
-              className="vector"
-              src="/vectors/youtube.svg"
-              alt="logo do YouTube"
-            />
-          </Title>
-          <S.Video>
-            <ReactPlayer
-              url={project.video}
-              width="100%"
-              height="100%"
-              controls={true}
-              pip
-              config={{ file: { forceHLS: true } }}
-            />
-          </S.Video>
+          
         </S.ContainerVideo>
 
         <div className="allProjects">

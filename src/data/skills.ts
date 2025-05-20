@@ -32,9 +32,9 @@ const cardSkills = [
   },
   {
     id: 6,
-    title: 'Next JS',
-    img: '/skills/next-js.svg',
-    color: '#fff'
+    title: 'Node Js',
+    img: '/skills/node.webp',
+    color: '#91c601'
   },
   {
     id: 7,
@@ -43,30 +43,35 @@ const cardSkills = [
     color: '#9F70B8'
   },
   {
-    id: 8,
-    title: 'Tailwind',
-    img: '/skills/tailwindcss.svg',
-    color: '#38BDF8'
-  },
-  {
-    id: 9,
-    title: 'Material UI',
-    img: '/skills/material-ui.svg',
-    color: '#007fff'
-  },
-  // {
-  //   id: 10,
-  //   title: 'Chakra UI',
-  //   img: '/skills/chakra-ui.svg',
-  //   color: '#51c8c5'
-  // },
-  {
     id: 11,
     title: 'Git',
     img: '/skills/git.svg',
     color: '#de4736'
   },
-
+  {
+    id: 11,
+    title: 'Banco de Dados',
+    img: '/skills/mongo.webp',
+    color: '#002b4f'
+  },
+    {
+    id: 11,
+    title: 'Consumo de Api´s',
+    img: '/skills/api.png',
+    color: '#ddd'
+  },
+    {
+    id: 11,
+    title: 'Cmd/Npm',
+    img: '/skills/cmdd.png',
+    color: '#000'
+  },
+    {
+    id: 11,
+    title: 'Arquitetura MVC',
+    img: '/skills/mvcc.webp',
+    color: '#2976b5'
+  },
 ]
 
 export default cardSkills

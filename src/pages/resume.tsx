@@ -10,7 +10,7 @@ import { BsFileText } from 'react-icons/bs'
 
 export default function Resume() {
   const resumeData =
-    'https://www.canva.com/design/DAFTFxhLLPw/ddljelrvwHm5zBTlNywJMQ/edit?utm_content=DAFTFxhLLPw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
+    'https://www.canva.com/design/DAGoBfjVx5A/YW3_yUJCgAkFsV0sW67vPw/view'
 
   const previewData = `${resumeData.substr(
     0,
@@ -20,12 +20,12 @@ export default function Resume() {
   return (
     <>
       <Head>
-        <title>Resume | Evander Inácio </title>
+        <title>Currículo | Patrik Magalhães </title>
         <meta
           name="description"
           content="Aqui você poderá ver ou baixar o meu currículo."
         />
-        <meta property="og:title" content="Resume | Evander Inácio" />
+        <meta property="og:title" content="Currículo | Patrik Magalhães" />
         <meta
           property="og:description"
           content="Aqui você poderá ver ou baixar o meu currículo."
@@ -53,7 +53,7 @@ export default function Resume() {
             allowFullScreen
             width="740"
             height="780"
-            title="Evander Inácio"
+            title="Patrik Magalhães"
           />
 
           <CV />

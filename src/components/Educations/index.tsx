@@ -57,28 +57,7 @@ export function Educations() {
             alt="menino no computador"
           />
 
-          <Carousel
-            autoPlay={true}
-            infiniteLoop={true}
-            showStatus={false}
-            showIndicators={false}
-            showThumbs={false}
-            interval={1500}
-          >
-            {certificates &&
-              certificates.map(certificate => {
-                return (
-                  <Image
-                    width={500}
-                    height={300}
-                    className="carousel"
-                    key={certificate.id}
-                    src={certificate.image}
-                    alt={certificate.name}
-                  />
-                  )
-              })}
-          </Carousel>
+
         </S.EducationImage>
       </S.EducationContent>
     </S.ContainerEducation>

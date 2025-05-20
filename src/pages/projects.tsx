@@ -31,15 +31,15 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | Evander Inácio </title>
+        <title>Projects | Patrik Magalhães </title>
         <meta
           name="description"
-          content="Adoro codificar usando ferramentas como React, NextJS, Tailwind, Styled Components e muito mais! Aqui estão alguns dos meus projetos favoritos."
+          content="Adoro codificar usando ferramentas como React, Styled Components e muito mais! Aqui estão alguns dos meus projetos favoritos."
         />
-        <meta property="og:title" content="Projects | Evander Inácio" />
+        <meta property="og:title" content="Projects | Patrik Magalhães" />
         <meta
           property="og:description"
-          content="Adoro codificar usando ferramentas como React, NextJS, Tailwind, Styled Components e muito mais! Aqui estão alguns dos meus projetos favoritos."
+          content="Adoro codificar usando ferramentas como React, Styled Components e muito mais! Aqui estão alguns dos meus projetos favoritos."
         />
       </Head>
 
@@ -133,17 +133,7 @@ export default function Projects() {
               )
             })}
 
-            <p className="github">
-              Ei, ei, ei... Tenho ainda mais no{' '}
-              <a
-                href="https://github.com/EvanderInacio"
-                target="_blank"
-                rel="noreferrer"
-              >
-                meu GitHub{' '}
-              </a>
-              !
-            </p>
+      
           </S.ProjectsContent>
         </S.ProjectsContainer>
       </T.Section>

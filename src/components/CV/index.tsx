@@ -20,9 +20,9 @@ export function CV() {
                 Aqui você pode baixar meu currículo clicando no botão de download.
               </p>
               <div className="profile">
-                <img src="https://github.com/EvanderInacio.png" alt="Imagem de perfil" />
+                <img src="/patrik.jpeg" alt="Imagem de perfil" />
                 <div className="name">
-                  <h3>Evander Inacio</h3>
+                  <h3>Patrik Magalhaes</h3>
                   <span>Desenvolvedor Front end</span>
                 </div>
               </div>
@@ -30,7 +30,7 @@ export function CV() {
           
           <Curriculum>
             <img src="/cv.png" alt="Homem mostrando um botão de download de currículo" />
-            <a href="/pdf/Evander-CV.pdf" download>
+            <a href="/pdf/curriculo.pdf" download>
               <ButtonSecondAlt>
                 <b>Download CV</b> <FiDownload size={20}  />
               </ButtonSecondAlt>

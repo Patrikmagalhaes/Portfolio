@@ -32,14 +32,14 @@ export function About() {
 
             <strong>
               P.S. este site é código aberto e está disponível no{' '}
-              <Link href={'https://github.com/EvanderInacio/Portfolio'}>
+              <Link href={'https://github.com/patrikmagalhaes/Portfolio'}>
                 <a target='_blank'>Github</a>
               </Link>
             </strong>
           </div>
 
           <div className='aboutButton'>
-            <Link href={'/contact'}>
+            <Link href={'https://api.whatsapp.com/send?phone=5569999523234'}>
               <a>
                 <Button>
                   Entre em contato

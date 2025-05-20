@@ -1,65 +1,38 @@
 const works = [
   {
     id: 1,
-    url: 'spedisco',
-    img: '/work/spedisco/dashboard.png',
-    logo: '/work/spedisco/spedisco-logo.png',
-    title: 'Spedisco',
+    url: 'Psicóloga - Milena',
+    img: '/work/spedisco/heroo.png',
+    logo: '/work/spedisco/logo.png',
+    title: 'Psicóloga - Milena Tiveron',
     subTitle: 'Freelancer',
     description:
-      'Responsável pelo front-end e pela integração do back-end de uma plataforma de envio de mensagens via api do WhatsApp e e-mail, onde o cliente pode se cadastrar e se conectar via WhatsApp por meio de um qrcode. Podendo visualizar seus contatos do próprio whatsApp dentro da plataforma, assim como criar trabalhos e grupos de contatos em um trabalho específico e podendo enviar mensagens para seus contatos do whatsApp e e-mail.',
+      'Desenvolvi uma landing page para a psicóloga Milena Tiveron utilizando HTML, CSS, JavaScript e WordPress, com foco em aumentar a conversão de visitantes em pacientes. O projeto incluiu estratégias de SEO para melhorar o posicionamento nos mecanismos de busca e integração com o Google Ads para campanhas de tráfego pago, resultando em um aumento expressivo nos contatos recebidos através do site.',
     tags: [
       { name: 'Html', icon: '/skills/html.svg' },
       { name: 'Css', icon: '/skills/css.svg' },
-      { name: 'React JS', icon: '/skills/react.svg' },
       { name: 'JavaScript', icon: '/skills/javascript.svg' },
-      { name: 'MaterialUL', icon: '/skills/material-ui.svg' },
-      { name: 'NodeJS', icon: '/skills/nodejs.svg' },
-      { name: 'MongoDB', icon: '/skills/mongodb.svg' }
+      { name: 'Wordpress', icon: '/skills/wpress.png' }
     ],
-    date: 'Mar 2023 - Jun 2023',
+    date: 'Fev 2025',
     prints: [
       {
-        name: 'Dashboard',
-        image: '/work/spedisco/dashboard.png',
+        name: 'Hero',
+        image: '/work/spedisco/heroo.png',
         description:
-          'Após se autenticar, o usuário é redirecionado para a dashboard pagina inicial da aplicação, onde existe uma tabela com histórico de mensagens do email e whatsApp. A tabela ainda conta com a opção de ver o histórico de mensagem das últimas 24 horas, mensal, etc.'
+          'Seção Hero da landing page desenvolvida para a psicóloga Milena Tiveron, com foco em comunicação clara, design acolhedor e chamada para ação eficiente.'
       },
       {
-        name: 'Contacts',
-        image: '/work/spedisco/contacts.png',
+        name: 'Sobre Mim',
+        image: '/work/spedisco/sobremim.png',
         description:
-          'Na página de contatos o usuário tem a opção de adicionar um novo contato e assim poder usar o chat da plataforma para se comunicar por meio de mensagens de emails ou whatsApp.'
+          'Seção "Sobre Mim" criada para apresentar a trajetória profissional da psicóloga Milena Tiveron, transmitindo empatia, credibilidade e proximidade. O conteúdo foi estruturado com foco na conexão com o visitante, reforçando a confiança no atendimento'
       },
       {
-        name: 'Contacts Import',
-        image: '/work/spedisco/contacts-import.png',
+        name: 'Perguntas Frequentas(FAQ)',
+        image: '/work/spedisco/perguntas.png',
         description:
-          'Ainda na página de contatos o usuário pode visualizar uma tabela com os contatos já cadastrados e vinculados aquele usuário.'
-      },
-      {
-        name: 'Filters',
-        image: '/work/spedisco/filter.png',
-        description:
-          'Página de filters o usuário pode filtrar um contato, assim criar, deletar e editar um filtro.'
-      },
-      {
-        name: 'Group',
-        image: '/work/spedisco/group.png',
-        description:
-          'Página de group o usuário pode criar/deletar/editar um grupo de um ou mais contatos.'
-      },
-      {
-        name: 'Settings Email',
-        image: '/work/spedisco/settings-email.png',
-        description:
-          'Página de configuração o usuário pode cadastrar um WhatsApp dele via um qrcode ou e-mail, assim como o tipo de serviço daquele e-mail como hotmail, gmail, yahoo, etc...'
-      },
-      {
-        name: 'Settings Lang',
-        image: '/work/spedisco/settings-lang.png',
-        description:
-          'Ainda dentro da página de configuração existe a opção de escolher a linguagem da plataforma entre Italiano que é o padrão da plataforma ou inglês.'
+          'Seção de Perguntas Frequentes desenvolvida para esclarecer dúvidas comuns sobre o atendimento psicológico, como valores, duração das sessões, sigilo profissional e tipos de abordagem. O conteúdo foi organizado de forma acessível e objetiva, com foco em reduzir barreiras de contato e aumentar a confiança do visitante.'
       }
     ]
   },

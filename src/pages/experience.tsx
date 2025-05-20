@@ -20,12 +20,12 @@ export default function Experience() {
   return (
     <>
       <Head>
-        <title>Experience | Evander Inácio </title>
+        <title>Experience | Patrik Magalhães </title>
         <meta
           name="description"
           content="Minha experiência como desenvolvedor web."
         />
-        <meta property="og:title" content="Experience | Evander Inácio" />
+        <meta property="og:title" content="Experience | Patrik Magalhães" />
         <meta
           property="og:description"
           content="Minha experiência como desenvolvedor web."
